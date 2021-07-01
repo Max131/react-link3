@@ -10,6 +10,15 @@ import {ReactComponent as InstagramIcon} from './icons/instagram.svg';
 import {ReactComponent as LinkedinIcon} from './icons/linkedin.svg';
 import {ReactComponent as TwitterIcon} from './icons/twitter.svg';
 import {ReactComponent as UserIcon} from './icons/user-circle.svg';
+import {ReactComponent as FlickrIcon} from './icons/flickr.svg';
+import {ReactComponent as JsfiddleIcon} from './icons/jsfiddle.svg';
+import {ReactComponent as PinterestIcon} from './icons/pinterest.svg';
+import {ReactComponent as RedditIcon} from './icons/reddit.svg';
+import {ReactComponent as SkypeIcon} from './icons/skype.svg';
+import {ReactComponent as SnapchatIcon} from './icons/snapchat.svg';
+import {ReactComponent as TelegramIcon} from './icons/telegram.svg';
+import {ReactComponent as VkIcon} from './icons/vk.svg';
+import {ReactComponent as YoutubeIcon} from './icons/youtube.svg';
 
 const Icons = {
   bookmark:   <BookmarkIcon />,
@@ -22,7 +31,16 @@ const Icons = {
   linkedin:   <LinkedinIcon />,
   portfolio:  <BriefcaseIcon />,
   twitter:    <TwitterIcon />,
-  user:       <UserIcon />
+  user:       <UserIcon />,
+  flicker:    <FlickrIcon />,
+  jsfiddle:   <JsfiddleIcon />,
+  pinterest:  <PinterestIcon />,
+  reddit:     <RedditIcon />,
+  skype:      <SkypeIcon />,
+  snapchat:   <SnapchatIcon />,
+  telegram:   <TelegramIcon />,
+  vk:         <VkIcon />,
+  youtube:    <YoutubeIcon />
 }
 
 export default Icons

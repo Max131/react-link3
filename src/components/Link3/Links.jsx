@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Icons from './Icons';
 
-function Link({name, url}, index){
+function Link({name, url, icon}, index){
   const [isHover, setIsHover] = useState(false);
 
   return(
@@ -14,7 +14,7 @@ function Link({name, url}, index){
       <a href={url} className="has-text-weight-semibold is-block pl-6" target="_balnk" rel="noopener">
         <span className="icon-text">
           <span className="icon">
-            {Icons[name]||Icons['info']}
+            {Icons[icon]||Icons['info']}
           </span>
           <span className="is-capitalized">{name}</span>
         </span>

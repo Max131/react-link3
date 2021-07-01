@@ -1,6 +1,7 @@
 import Avatar from './Avatar';
-import Links from './Links';
 import UserInfo from './UserInfo';
+import Links from './Links';
+import SocialIcons from './SocialIcons';
 
 export default function Link3({userData}){
   return(
@@ -9,6 +10,7 @@ export default function Link3({userData}){
         <Avatar image={userData.avatar} alt={userData.user} />
         <UserInfo user={userData.user} desc={userData.desc} />
         <Links data={userData.links} />
+        <SocialIcons data={userData.social} />
       </div>
     </div>    
   );

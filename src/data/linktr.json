@@ -7,23 +7,28 @@
 	"links": [
 		{
 			"name": "github", 
-			"url": "https://github.com/max131"
+			"url": "https://github.com/max131",
+			"icon": "github"
 		},
 		{
 			"name": "gitlab", 
-			"url": "https://gitlab.com/m131"
+			"url": "https://gitlab.com/m131",
+			"icon": "gitlab"
 		},
 		{
 			"name": "codepen", 
-			"url": "https://codepen.io/max131"
+			"url": "https://codepen.io/max131",
+			"icon": "codepen"
 		},
 		{
 			"name": "stackblitz", 
-			"url": "https://stackblitz.io/@Max131"
+			"url": "https://stackblitz.io/@Max131",
+			"icon": "stackblitz"
 		},
 		{
 			"name": "portfolio", 
-			"url": "https://portfolio.mabreumx.com"
+			"url": "https://portfolio.mabreumx.com",
+			"icon": "portfolio"
 		}
 	],
 	"social": [
@@ -38,6 +43,10 @@
 		{
 			"name": "facebook", 
 			"url": "https://facebook.com/mabreumx"
+		},
+		{
+			"name": "instagram", 
+			"url": "https://instagram.com/rappelycampismo"
 		}
 	]
 }
