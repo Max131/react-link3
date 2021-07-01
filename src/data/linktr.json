@@ -4,11 +4,7 @@
 	"user": "Mario Abreu",
 	"avatar": "https://picsum.photos/id/1012/100",
 	"desc": "Fanstatic Frontend Developer.",
-	"social": [
-		{
-			"name": "linkedin", 
-			"url": "https://linkedin.com/in/mario-abreu"
-		},
+	"links": [
 		{
 			"name": "github", 
 			"url": "https://github.com/max131"
@@ -22,16 +18,26 @@
 			"url": "https://codepen.io/max131"
 		},
 		{
-			"name": "twitter", 
-			"url": "https://twitter.com/maxito_abreu"
-		},
-		{
 			"name": "stackblitz", 
 			"url": "https://stackblitz.io/@Max131"
 		},
 		{
 			"name": "portfolio", 
 			"url": "https://portfolio.mabreumx.com"
+		}
+	],
+	"social": [
+		{
+			"name": "linkedin", 
+			"url": "https://linkedin.com/in/mario-abreu"
+		},
+		{
+			"name": "twitter", 
+			"url": "https://twitter.com/maxito_abreu"
+		},
+		{
+			"name": "facebook", 
+			"url": "https://facebook.com/mabreumx"
 		}
 	]
 }
